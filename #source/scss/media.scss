@@ -1,0 +1,269 @@
+//!									MAX-WIDTH							
+@media (max-width: 1110px) {
+	.services__items {
+		flex-wrap: wrap;
+		gap: 30px;
+		&:last-child {
+			justify-content: center;
+		}
+	}
+	.services__item {
+		max-width: 45%;
+	}
+	.form__box-inner {
+		flex-direction: column;
+		& textarea {
+			margin-bottom: 20px;
+		}
+	}
+	.form__box-right {
+		margin-top: 20px;
+	}
+	.advantages {
+		background-position: center left 70%;
+	}
+	.advantages__inner {
+		flex-wrap: wrap;
+		gap: 30px;
+		&:last-child {
+			justify-content: center;
+		}
+	}
+	.news {
+		padding: 55px 0px 40px;
+	}
+	.news__inner {
+		display: block;
+	}
+	.news__slider {
+		margin: 0px auto;
+	}
+	.news__blog {
+		max-width: 100%;
+		display: block;
+		margin: 10px 0px 30px 0px;
+		&::after {
+			content: "";
+			clear: both;
+			display: block;
+		}
+	}
+	.news__images {
+		float: left;
+		margin-right: 50px;
+	}
+	.news__inner .slick-prev {
+		display: none !important;
+	}
+	.news__inner .slick-next {
+		display: none !important;
+	}
+}
+
+@media (max-width: 900px) {
+	.slider .slick-btn {
+		display: none !important;
+	}
+	.footer__inner {
+		display: block;
+	}
+	.footer__info {
+		margin-bottom: 30px;
+	}
+	.footer__map {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 820px) {
+	.form__inner {
+		background-position: top 25% right;
+		background-size: 220px;
+	}
+}
+
+@media (max-width: 800px) {
+	.services__top, .news__top {
+		flex-wrap: wrap;
+	}
+	.services__title-box, .form__title-box, .news__title-box {
+		max-width: 100%;
+		margin-bottom: 30px;
+		padding: 0px 120px 0px 160px;
+		
+	}
+	.services__btn, .news__btn {
+		margin: 0px auto;
+	}
+	.advantages__text {
+		padding-bottom: 20px;
+	}
+}
+@media (max-width: 700px) {
+.header__btn-menu {
+	display: block;
+}
+.menu ul {
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-top: 20px;
+	z-index: 50;
+}
+.menu li {
+	display: block;
+	text-align: center;
+	&:not(:last-child) {
+		padding-right: 0px;
+	}
+}
+.menu a {
+	display: block;
+	background-color: #ffc222;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	line-height: 150%;
+}
+.services__item {
+	max-width: 60%;
+}
+.services__title-box, .form__title-box, .news__title-box {
+	padding: 0px 5% 0px 23%;
+	&::before {
+		width: 70px;
+	}
+}
+}
+
+@media (max-width: 654px) {
+	.header__contacts {
+		text-align: center;
+	}
+	.header__btn {
+		float: none;
+		display: block;
+		&::before {
+			display: none;
+		}
+	}
+	.footer__info .header__btn::before {
+		display: block;
+	}
+}
+@media (max-width: 600px) {
+	.news__images {
+		margin-right: 20px;
+	}
+}
+
+@media (max-width: 550px) {
+	.services__item {
+		max-width: 95%;
+	}
+	.news__slider {
+		padding: 50px 15px 25px 25px;
+		&::before {
+			left: 25px;
+		}
+	}
+	.news__images {
+		float: none;
+	}
+}
+
+@media (max-width: 500px) {
+	.form__inner {
+		background: none;
+	}
+	.form__box {
+		padding-top: 0px;
+	}
+	.form__title-box {
+		margin-bottom: 15px;
+	}
+}
+
+@media (max-width: 450px) {
+	.slider__title {
+		font-size: 24px;
+	}
+	.slider__text {
+		font-size: 16px;
+	}
+	.services__top, .news__top {
+		margin-bottom: 20px;
+	}
+	.services__title-box, .form__title-box, .news__title-box {
+		padding: 0px 0px 0px 23%;
+		&::before {
+			width: 50px;
+		}
+	}
+}
+
+@media (max-width: 400px) {
+	.header__phone, .header__email {
+		display: block;
+		&::before {
+			left: 23%;
+		}
+	}
+	.header__phone {
+		padding-left: 37px;
+	}
+}
+
+@media (max-width: 370px) {
+	.slider__title {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 353px) {
+	.header__phone, .header__email {
+		&::before {
+			left: 19%;
+		}
+	}
+.header__btn {
+	&::before {
+		display: block;
+	}
+}
+.services {
+	padding: 30px 0;
+}
+.services__text, .form__text {
+	font-size: 13px;
+}
+.services__item-text {
+	padding: 0px 15px 30px;
+}
+}
+
+@media (max-width: 321px) {
+	.header__phone, .header__email {
+		&::before {
+			left: 16%;
+		}
+	}
+	.footer__title {
+		font-size: 15px;
+	}
+	.footer__text {
+		padding: 10px 0px;
+	}
+	.footer__map {
+		padding-top: 0;
+	}
+}
+//!								MIN-WIDTH								
+
+@media (min-width: 701px) {
+.menu ul {
+	display: block !important;
+}
+}
+
+//!								MAX-HEIGHT								
